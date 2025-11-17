@@ -1,0 +1,4 @@
+film[
+  rating == "PG" & rental_duration > 5,
+  .(film_id, title, rating, rental_duration)
+]
