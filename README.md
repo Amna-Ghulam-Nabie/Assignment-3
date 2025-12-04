@@ -178,4 +178,4 @@ This IR system meets all assignment requirements:
 ## 👩‍💻 Author
 
 **Amna Ghulam Nabi**
-(Replace with your GitHub username if you want)
+(Amna-Ghulam-Nabie) Github
