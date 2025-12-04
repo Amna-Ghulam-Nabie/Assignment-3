@@ -1,4 +1,4 @@
-# Information Retrieval System (Local Search Engine)
+Information Retrieval System (Local Search Engine)
 
 This project is a **complete Information Retrieval (IR) system** that runs fully on a **local machine** (Windows/Mac/Linux).
 It implements multiple retrieval strategies — **TF-IDF**, **BM25**, **Boolean Retrieval**, and a **Hybrid model** — and performs search over a dataset of text files.
