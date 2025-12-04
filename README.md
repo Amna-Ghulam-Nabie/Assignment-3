@@ -1,125 +1,26 @@
-# 📚 Information Retrieval System (Local Search Engine)
+# Information Retrieval System (Local Search Engine)
 
 This project is a **complete Information Retrieval (IR) system** that runs fully on a **local machine** (Windows/Mac/Linux).
 It implements multiple retrieval strategies — **TF-IDF**, **BM25**, **Boolean Retrieval**, and a **Hybrid model** — and performs search over a dataset of text files.
 
 This system is suitable for academic projects, IR assignments, and educational demonstrations of classic retrieval algorithms.
 
----
 
-## 🚀 **Features**
 
-* 🔍 **TF-IDF Retrieval**
-* 📘 **BM25 Ranking Model**
-* ✔ **Boolean AND Retrieval**
-* 🔗 **Hybrid Retrieval (TF-IDF + BM25 + Boolean)**
-* 🧹 Automatic text cleaning (stopwords removal, stemming)
-* 📁 Reads all `.txt` files from a local `documents/` folder
-* ⚡ Fast search and scoring
-* 🖥 Runs completely offline — **no cloud APIs or hosted vector databases**
+## **Features**
 
----
+*  **TF-IDF Retrieval**
+*  **BM25 Ranking Model**
+*  **Boolean AND Retrieval**
+*  **Hybrid Retrieval (TF-IDF + BM25 + Boolean)**
+*  Automatic text cleaning (stopwords removal, stemming)
+*  Reads all `.txt` files from a local `documents/` folder
+*  Fast search and scoring
+*  Runs completely offline — **no cloud APIs or hosted vector databases**
 
-## 📂 **Project Structure**
 
-```
-IR-System/
-│
-├── main.py              # Main execution file (your provided code)
-├── documents/           # Folder containing text documents
-│     ├── doc1.txt
-│     ├── doc2.txt
-│     └── doc3.txt
-│
-└── README.md            # Instructions and documentation
-```
 
----
-
-## 🛠 **Installation**
-
-### 1. **Clone the Repository**
-
-```bash
-git https://github.com/Amna-Ghulam-Nabie/Assignment-3
-cd IR-System
-```
-
-### 2. **Install Dependencies**
-
-Required Python libraries:
-
-* scikit-learn
-* nltk
-* numpy
-
-Install using:
-
-```bash
-pip install -r requirements.txt
-```
-
-If you don't have a requirements file, you can manually install:
-
-```bash
-pip install scikit-learn nltk numpy
-```
-
----
-
-## 📁 **Dataset Instructions**
-
-Place all `.txt` files in the folder:
-
-```
-documents/
-```
-
-Example:
-
-```
-documents/
- ├── chapter1.txt
- ├── intro.txt
- ├── notes.txt
- └── article3.txt
-```
-
-⚠ If the folder is empty, the system will automatically create 3 sample documents.
-
----
-
-## ▶️ **How to Run**
-
-Simply execute:
-
-```bash
-python main.py
-```
-
-You will see:
-
-```
-Loaded X files.
-Using search mode: hybrid
-→ Building TF-IDF model...
-→ Building BM25 model...
-→ Building Boolean model...
-Index built successfully.
-Enter your query:
-```
-
-Type any query, for example:
-
-```
-information retrieval systems
-```
-
-And you’ll get ranked results with document previews.
-
----
-
-## 🔧 **Retrieval Models**
+## **Retrieval Models**
 
 The system supports 4 modes:
 
@@ -132,9 +33,8 @@ The system supports 4 modes:
 
 Default mode: **hybrid**
 
----
 
-## 🧠 **How It Works**
+##  **How It Works**
 
 1. **Load Documents** → reads all .txt files
 2. **Clean Text** → lowercase, remove stopwords, stem
@@ -143,9 +43,8 @@ Default mode: **hybrid**
 5. **System ranks all documents**
 6. **Returns top-k most relevant documents**
 
----
 
-## 📌 Example Output
+##  Example Output
 
 ```
 ======================= RESULTS =======================
@@ -161,9 +60,8 @@ Preview: Data retrieval is important in many fields...
 ------------------------------------------------------
 ```
 
----
 
-## 📜 **Requirements (Assignment Compliance)**
+##  **Requirements (Assignment Compliance)**
 
 This IR system meets all assignment requirements:
 
@@ -173,9 +71,8 @@ This IR system meets all assignment requirements:
 ✔ Reproducible pipeline
 ✔ Clear documentation + source code included
 
----
 
-## 👩‍💻 Author
+##  Author
 
 **Amna Ghulam Nabi**
 (Amna-Ghulam-Nabie) Github
