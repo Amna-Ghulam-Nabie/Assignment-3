@@ -1,10 +1,9 @@
-Information Retrieval System (Local Search Engine)
+# Information Retrieval System (Local Search Engine)
 
 This project is a **complete Information Retrieval (IR) system** that runs fully on a **local machine** (Windows/Mac/Linux).
 It implements multiple retrieval strategies — **TF-IDF**, **BM25**, **Boolean Retrieval**, and a **Hybrid model** — and performs search over a dataset of text files.
 
 This system is suitable for academic projects, IR assignments, and educational demonstrations of classic retrieval algorithms.
-
 
 
 ## **Features**
@@ -17,7 +16,6 @@ This system is suitable for academic projects, IR assignments, and educational d
 *  Reads all `.txt` files from a local `documents/` folder
 *  Fast search and scoring
 *  Runs completely offline — **no cloud APIs or hosted vector databases**
-
 
 
 ## **Retrieval Models**
@@ -33,7 +31,6 @@ The system supports 4 modes:
 
 Default mode: **hybrid**
 
-
 ##  **How It Works**
 
 1. **Load Documents** → reads all .txt files
@@ -42,7 +39,6 @@ Default mode: **hybrid**
 4. **User enters query**
 5. **System ranks all documents**
 6. **Returns top-k most relevant documents**
-
 
 ##  Example Output
 
@@ -60,7 +56,6 @@ Preview: Data retrieval is important in many fields...
 ------------------------------------------------------
 ```
 
-
 ##  **Requirements (Assignment Compliance)**
 
 This IR system meets all assignment requirements:
@@ -70,7 +65,6 @@ This IR system meets all assignment requirements:
 ✔ TF-IDF / BM25 / Boolean retrieval
 ✔ Reproducible pipeline
 ✔ Clear documentation + source code included
-
 
 ##  Author
 
