@@ -41,7 +41,7 @@ IR-System/
 ### 1. **Clone the Repository**
 
 ```bash
-git https://github.com/Amna-Ghulam-Nabie/Assignment-3/new/master
+git https://github.com/Amna-Ghulam-Nabie/Assignment-3
 cd IR-System
 ```
 
