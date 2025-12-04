@@ -43,16 +43,23 @@ Default mode: **hybrid**
 ##  Example Output
 
 ```
-======================= RESULTS =======================
+============================================================================
+Top 3 results for query: 'Amna is a Student'
+============================================================================
 Rank: 1
-File: doc1.txt
-Score: 0.4521
-Preview: This document discusses information retrieval...
+Document: doc1.txt
+Score: 0.0000
+Content: This is the first document. It talks about information retrieval.
 ------------------------------------------------------
 Rank: 2
-File: doc3.txt
-Score: 0.3012
-Preview: Data retrieval is important in many fields...
+Document: doc2.txt
+Score: 0.0000
+Content: The second document discusses search engines and ranking algorithms.
+------------------------------------------------------
+Rank: 3
+Document: doc3.txt
+Score: 0.0000
+Content: Information technology is a vast field. Retrieval of data is crucial.
 ------------------------------------------------------
 ```
 
@@ -60,11 +67,11 @@ Preview: Data retrieval is important in many fields...
 
 This IR system meets all assignment requirements:
 
-✔ Fully local implementation
-✔ No cloud-hosted vector DBs
-✔ TF-IDF / BM25 / Boolean retrieval
-✔ Reproducible pipeline
-✔ Clear documentation + source code included
+ * Fully local implementation
+ * No cloud-hosted vector DBs
+ * TF-IDF / BM25 / Boolean retrieval
+ * Reproducible pipeline
+ * Clear documentation + source code included
 
 ##  Author
 
